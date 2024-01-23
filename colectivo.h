@@ -6,4 +6,5 @@ class Colectivo :public Auto {
 		int tarifas;
 	public:
 		Colectivo(int, int, int, int);
+		string toString();
 };
